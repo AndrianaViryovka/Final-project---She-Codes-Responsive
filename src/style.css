@@ -112,25 +112,6 @@ p {
   color: white;
   margin-top: 20px;
 }
-#position {
-  text-align: left;
-  padding: 0px;
-}
-#contact {
-  margin-top: 40px;
-}
-#hero {
-  text-align: left;
-}
-#photo-image {
-  max-width: 90%;
-}
-#certificates {
-  padding: 20px;
-}
-#certificates_web {
-  padding: 20px;
-}
 .d-flex {
   max-width: 90%;
   margin: 20px;
@@ -155,6 +136,25 @@ p {
 
 .contact-box p {
   margin: 0;
+}
+#position {
+  text-align: left;
+  padding: 0px;
+}
+#contact {
+  margin-top: 40px;
+}
+#hero {
+  text-align: left;
+}
+#photo-image {
+  max-width: 90%;
+}
+#certificates {
+  padding: 20px;
+}
+#certificates_web {
+  padding: 20px;
 }
 #weatherapp {
   font-family: var(--main-font);
