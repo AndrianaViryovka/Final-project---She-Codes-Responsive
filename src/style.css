@@ -1,6 +1,6 @@
 :root {
   --primary-color: #666668;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #e0cac7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --main-font: "Roboto", sans-serif;
   --button-color: #be7d7c;
@@ -119,6 +119,23 @@ p {
 #contact {
   margin-top: 40px;
 }
+#hero {
+  text-align: left;
+}
+#photo-image {
+  max-width: 90%;
+}
+#certificates {
+  padding: 20px;
+}
+#certificates_web {
+  padding: 20px;
+}
+.d-flex {
+  max-width: 90%;
+  margin: 20px;
+}
+
 .conteiner {
   padding: 40px;
   max-width: 100%;
@@ -128,6 +145,16 @@ p {
 }
 .col-md-6 {
   padding-bottom: 20px;
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  padding: 35px 35px 0px 35px;
+  border-radius: 8px;
+}
+
+.contact-box p {
+  margin: 0;
 }
 #weatherapp {
   font-family: var(--main-font);
@@ -222,7 +249,7 @@ button {
   background-repeat: no-repeat;
 }
 footer {
-  margin: 60px auto 40px;
+  margin: 40px auto 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -249,7 +276,10 @@ footer {
   text-decoration: none;
   color: #666668;
 }
-
+.mailto_contact {
+  text-decoration: none;
+  color: #666668;
+}
 .mailto:hover {
   color: black;
 }

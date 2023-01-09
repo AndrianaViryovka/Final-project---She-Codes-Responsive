@@ -13,6 +13,10 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/8cf8c6389c.js"
+      crossorigin="anonymous"
+    ></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -23,7 +27,10 @@
     <title>About Andriana Sl.</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style="background-color: #e2c0bb"
+    >
       <div class="container-fluid">
         <a class="navbar-brand ms-5 ps-5" href="#"> Andriana Sl. </a>
         <button
@@ -49,14 +56,16 @@
                 class="nav-link"
                 href="about.html"
                 title="About Andriana Slobozheniuk"
+                target="_blank"
                 >About me</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="about.html#contact"
+                href="contact.html"
                 title="Contact Andriana Slobozheniuk"
+                target="_blank"
                 >Contact me</a
               >
             </li>
@@ -64,42 +73,142 @@
         </div>
       </div>
     </nav>
-    <h1>About me</h1>
-    <h3>Front-end developer from Kyiv, Ukraine</h3>
-    <div class="about-paragraphs">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="" alt="Yoga images" class="img-fluid p-2 shadow rounded" />
+
+    <div class="card">
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img
+              src="images/photo.jpg"
+              class="img-fluid"
+              alt="Weatherapp images"
+              class="logo"
+              id="photo-image"
+            />
+          </div>
+          <div class="col-md-6" id="c">
+            <h2 class="mb-3" id="position">Hi, I’m Andriana</h2>
+            <h3 id="hero">Front-end developer based in Ukraine</h3>
+            <p class="app-description">
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
+            </p>
+            <p>
+              I have 9+ years of experience in the legal sectors, with
+              industry-standard legal software systems as a QA & Solution
+              Engineer. Support the technical delivery of Intapp solutions to
+              customers. Provide technical analysis and feedback of alpha and
+              beta stage software. Define technical best practices for
+              repeatable implementation methodology of each new product. Work
+              with product management to define features, defects, and
+              improvements into the new product roadmap.
+            </p>
+            <p>• MS SQL, XML, JSON, HTML, CSS, XPath.</p>
+            <p>
+              • Data integration experience with web services (ReST and SOAP)
+            </p>
+            <p>• Bug tracking system: JIRA, TFS;</p>
+            <div class="mt-5">
+              <a
+                href="index.html#myproject"
+                target="_blank"
+                class="primary-link project-link"
+                title="Weatherapp project"
+                >MY WEATHER PROJECT</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h4 id="myproject">CERTIFICATES</h4>
+      </div>
+    </div>
+
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-sm-6 text-center">
           <img
-            src=""
-            alt="Weather images"
-            class="img-fluid p-2 shadow rounded"
+            src="images/base.png"
+            class="img-fluid"
+            alt="Weatherapp images"
+            class="logo"
+            id="certificates"
           />
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-6 text-center">
           <img
-            src=""
-            alt="Yogurt images"
-            class="img-fluid p-2 shadow rounded"
+            src="images/web.png"
+            class="img-fluid"
+            alt="Weatherapp images"
+            class="logo"
+            id="certificates_web"
           />
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h2 id="contact">📮 Contact me</h2>
-      <a href="mailto:andriana99@gmail.com" class="email-link contact">
-        andriana99@gmail.com
-      </a>
+
+    <div
+      class="text-center contact-box justify-content-evenly b-5 d-none d-md-flex"
+    >
+      <div>
+        <h3>Work Inquiry</h3>
+        <p class="text-muted">Let's work together</p>
+      </div>
+      <div></div>
+      <div>
+        <a
+          href="contact.html"
+          class="btn btn-branding mt-3"
+          title="Contact Patricia"
+          target="_blank"
+        >
+          Contact me
+        </a>
+      </div>
     </div>
+
+    <footer>
+      <div>
+        <a
+          href="mailto: andriana99@gmail.com"
+          class="mailto text-center contact"
+          title="Email me"
+          >andriana99@gmail.com</a
+        >
+      </div>
+      <div class="follow-me">
+        <p>Follow me</p>
+      </div>
+      <div class="social-media">
+        <a
+          href="https://www.instagram.com/andriana.sl/"
+          target="_blank"
+          title="Instagram page"
+          ><i class="fa-brands fa-square-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/andriana-slobozheniuk-0831781a0/"
+          target="_blank"
+          title="Linkedin page"
+        >
+          <i class="fa-brands fa-linkedin icon"></i>
+        </a>
+      </div>
+      <div>
+        <p class="text-center mt-4 footer-source">
+          This site was created by Andriana Slobozheniuk and it is
+          <a
+            href="https://github.com/AndrianaViryovka"
+            title="GitHub"
+            target="_blank"
+            >open sourced</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
